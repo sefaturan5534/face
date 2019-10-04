@@ -198,7 +198,7 @@
     async function run() {
       // load face detection and face landmark models
       await changeFaceDetector(TINY_FACE_DETECTOR)
-      await faceapi.loadFaceLandmarkModel('/Face')
+      await faceapi.loadFaceLandmarkModel('/face')
 
       // start processing image
       updateResults()
